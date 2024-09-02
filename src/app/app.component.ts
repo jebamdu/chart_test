@@ -82,7 +82,7 @@ let EnrollNumber = couseNameArray.map((data : any)=>data.Enrollment_Count)
   data: {
     labels: mothdata.map((data : any) => data.Month),
     datasets: [{
-      label: 'Sales',
+      label: 'Month Wise Student Enrollment',
       data: mothdata.map((data : any)=> data.Student_Count),
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
@@ -115,7 +115,7 @@ let EnrollNumber = couseNameArray.map((data : any)=>data.Enrollment_Count)
     data: {
       labels: courseName,
       datasets: [{
-        label: 'Sales',
+        label: 'Popular Course',
         data: EnrollNumber,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
